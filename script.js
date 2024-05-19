@@ -21,3 +21,13 @@ function saveToggle() {
   }
   localStorage.setItem("toggles", JSON.stringify(toggles));
 }
+
+const links = document.querySelectorAll("#ad-student a");
+const image = document.querySelector("#right-img");
+
+links.forEach(link => {
+  link.addEventListener("mouseover", event => {
+    event.preventDefault();
+    image.src = link.dataset.image;
+  });
+});

@@ -1,6 +1,12 @@
-#toggle0,#toggle1,#toggle2,
-#toggle3,#toggle4,#toggle5,
-#toggle6,#toggle7,#toggle8 {
+#toggle0,
+#toggle1,
+#toggle2,
+#toggle3,
+#toggle4,
+#toggle5,
+#toggle6,
+#toggle7,
+#toggle8 {
   accent-color: #709;
   /* appearance: none; */
   /* background-color: #000; */
@@ -64,11 +70,33 @@ body {
   background-color: #7099;
   border-radius: 10px;
 }
+.student_container {
+  display: flex;
+  flex-wrap: wrap;
+}
+@media screen and (max-width: 700px) {
+  .student_container {
+    flex-direction: column;
+  }
+}
 
 #ad-student {
   text-align: left;
+  height: 300px;
+  flex: 1;
 }
-
+#right {
+  flex: 1;
+  overflow: hidden;
+  position: relative;
+}
+#right-img {
+  position: absolute;
+  max-width: 100%;
+  height: auto;
+  top: 0;
+  left: 0;
+}
 h1 {
   background-color: #f90;
   color: #709;
