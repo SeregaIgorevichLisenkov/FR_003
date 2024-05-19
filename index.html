@@ -1,60 +1,78 @@
-<!doctype html>
+<!DOCTYPE html>
 <html>
-
-<head>
-    <link rel="icon" type="image/x-icon" href="favicon.ico">
+  <head>
+    <link rel="icon" type="image/x-icon" href="favicon.ico" />
     <title>Группа Московская в воскресенье в 18.30 Фронтенд-разработка</title>
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="style.css" />
     <script defer src="script.js"></script>
+  </head>
 
-</head>
-
-<body>
+  <body>
     <div id="video-container">
-        <video autoplay muted loop id="ad-video">
-            <source src="001_1920x1080.mp4" type="video/mp4">
-        </video>
-        <div id="ad-content">
-            <h2>Группа Московская в воскресенье в 18.30</h2>
-            <h1>Фронтенд-разработка</h1>
-            <div id="ad-student">
-                <h3>
-                    <!-- Создаем 11 кнопок со своими label и ID (от toggle0 до toggle10), 
-                    которые будут использоваться для записи в localStorage и поиска элементов toggle. -->
-                    <label><input type="checkbox" id="toggle0" onclick="saveToggle()">
-                        <a target="_blank" href="">Алиев Магомед</a></label><br>
-                    <label><input type="checkbox" id="toggle1" onclick="saveToggle()">
-                        <a target="_blank" href="">Апресян Олег</a></label><br>
-                    <label><input type="checkbox" id="toggle2" onclick="saveToggle()">
-                        <a target="_blank" href="">Буняев Никита</a></label><br>
-                    <label><input type="checkbox" id="toggle3" onclick="saveToggle()">
-                        <a target="_blank" href="">Завидный Семен</a></label><br>
-                    <label><input type="checkbox" id="toggle4" onclick="saveToggle()">
-                        <a target="_blank" href="">Картазаев Никита</a></label><br>
-                    <label><input type="checkbox" id="toggle5" onclick="saveToggle()">
-                        <a target="_blank" href="">Манаширов Марк</a></label><br>
-                    <label><input type="checkbox" id="toggle6" onclick="saveToggle()">
-                        <a target="_blank" href="">Прокудин Вадим</a></label><br>
-                    <label><input type="checkbox" id="toggle7" onclick="saveToggle()">
-                        <a target="_blank" href="">Семыкин Роман</a></label><br>
-                    <label><input type="checkbox" id="toggle8" onclick="saveToggle()">
-                        <a target="_blank" href="https://vladislavtatinov.github.io/Progect_Site/#">Татинов
-                            Владислав</a></label><br>
-
-                </h3>
-            </div>
+      <video autoplay muted loop id="ad-video">
+        <source src="001_1920x1080.mp4" type="video/mp4" />
+      </video>
+      <div id="ad-content">
+        <h2>Группа Московская в воскресенье в 18.30</h2>
+        <h1>Фронтенд-разработка</h1>
+        <div id="ad-student">
+          <h3>
+            <label>
+              <input type="checkbox" id="toggle0" onclick="saveToggle()" />
+              <a href="" target="_blank"> Алиев Магомед</a>
+            </label>
+            <br />
+            <label>
+              <input type="checkbox" id="toggle1" onclick="saveToggle()" />
+              <a href="" target="_blank"> Апресян Олег</a>
+            </label>
+            <br />
+            <label>
+              <input type="checkbox" id="toggle2" onclick="saveToggle()" />
+              <a href="" target="_blank"> Буняев Никита</a>
+            </label>
+            <br />
+            <label>
+              <input type="checkbox" id="toggle3" onclick="saveToggle()" />
+              <a href="" target="_blank"> Завидный Семен</a>
+            </label>
+            <br />
+            <label>
+              <input type="checkbox" id="toggle4" onclick="saveToggle()" />
+              <a href="" target="_blank"> Картазаев Никита</a>
+            </label>
+            <br />
+            <label>
+              <input type="checkbox" id="toggle5" onclick="saveToggle()" />
+              <a href="" target="_blank"> Манаширов Марк</a>
+            </label>
+            <br />
+            <label>
+              <input type="checkbox" id="toggle6" onclick="saveToggle()" />
+              <a href="" target="_blank"> Прокудин Вадим</a>
+            </label>
+            <br />
+            <label>
+              <input type="checkbox" id="toggle7" onclick="saveToggle()" />
+              <a href="" target="_blank"> Семыкин Роман</a>
+            </label>
+            <br />
+            <label>
+              <input type="checkbox" id="toggle8" onclick="saveToggle()" />
+              <a
+                href="https://vladislavtatinov.github.io/Progect_Site/#"
+                target="_blank"
+              >
+                Татинов Владислав</a
+              >
+            </label>
+            <br />
+          </h3>
         </div>
+        <div>
+            <img src="321.jpg" alt="">
+        </div>
+      </div>
     </div>
-</body>
-<!-- <body style="background-color: blueviolet; color: white; margin: 50px; font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;">
-    <div style="background-color: #8A2BE299; padding: 5px 100px;">
-        <H1>Группа Московская в субботу в 18:00</H1>
-        <H3>Фронтенд-разработка</H3>
-    </div>
-    <div style="align-items: center; color: black; background-color: #ffffff99; width: 400px; 
-        border-radius: 10px; padding: 10px 40px; margin: 40px 160px;">
-        
-    </div>
-</body> -->
-
+  </body>
 </html>
